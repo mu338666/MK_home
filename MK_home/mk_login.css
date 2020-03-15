@@ -1,0 +1,11 @@
+#login_box { width: 429px; margin: 0 auto; }
+#login_title { margin: 50px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px black; }
+#login_title span {	font-size: 20px; font-family: Garamond; }
+section{ margin-top: 100px; height: 400px;}
+#login_form { margin-top: 20px; }
+#login_form ul { list-style: none;}
+#login_form li { margin-top: 10px; }
+#login_form input {	width: 100%; height: 40px;}
+#login_form li>p{ font-size: 10px;color: red;}
+#login_form #login_btn { margin-top: 15px; margin-bottom: 50px; float: right;}
+#login_btn>button{font-family: Garamond; font-size: 16px;width: 80px;}

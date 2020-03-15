@@ -1,0 +1,618 @@
+section#Hannah-section-Review {
+  width: 83.5%;
+  height: 750px;
+  background-color: #E8E8E8;
+  float: left;
+  overflow: auto;
+  border: 3px solid white;
+  padding-bottom: 35px;
+}
+
+.starR {
+  background: url('http://miuu227.godohosting.com/images/icon/ico_review.png') no-repeat right 0;
+  background-size: auto 100%;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+.starR.on {
+  background-position: 0 0;
+}
+
+h1{
+  display: inline-block;
+  padding-left: 420px;
+  padding-bottom: -20px;
+}
+
+#img_sprite{
+  padding-left: 90px;
+}
+
+header{
+  position: relative;
+}
+
+div#div_sign_up{
+  position: absolute;
+  right: 120px;
+  top: 10px;
+  font-family: Garamond;
+}
+
+div#div_sign_up>a{
+  text-decoration: none;
+  color: black;
+}
+
+div#div_sign_up>a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+div#div_profile{
+  position: absolute;
+  right: 120px;
+  top: 10px;
+  font-family: Garamond;
+}
+
+div#div_profile>p {
+  font-family: 'Cafe24Oneprettynight';
+}
+
+div#div_profile_second{
+  float: right;
+}
+
+div#div_profile_second>a{
+  text-decoration: none;
+  color: black;
+}
+
+div#div_profile_second>a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+div#div-search{
+  position: absolute;
+  top: 125px;
+  right: 120px;
+}
+
+div#div-search>input{
+  width: 120px;
+}
+
+div#div-search>button{
+  font-family: Garamond;
+}
+
+
+img.img-profile {
+  margin-top: 20px;
+  float: right;
+}
+
+div.review-id-name {
+  float: right;
+  margin-top: 40px;
+}
+
+strong.strong-title {
+  font-family: 'BBTreeGR';
+  font-size: 16px;
+}
+
+strong.strong-gray {
+  Color: gray;
+  font-size: 18px;
+}
+
+div.review-detail {
+  float: left;
+  margin-top: 30px;
+  width: 125px;
+  height: 122px;
+  background-color: black;
+  text-align: center;
+  padding-top: 2.5px;
+  padding-bottom: 0.25px;
+}
+
+div.review-detail-content {
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+article.article-Review2 {
+  float: left;
+  margin-top: 30px;
+  font-family: '777Chyaochyureu';
+}
+
+article#article-Review {
+  float: left;
+  margin-top: 30px;
+  font-family: '777Chyaochyureu';
+}
+
+div.div-Review {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+hr.Review-Title {
+  width: 1120px;
+}
+
+div#table-option {
+  float: right;
+  padding-right: 84px;
+}
+
+select.review-option {
+  width: 100px;
+  height: 30px;
+  font-family: '777Chyaochyureu';
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+article#article-Review-Category {
+  width: 100%;
+  float: left;
+}
+
+select#Review-select {
+  width: 230px;
+  height: 30px;
+  font-family: '777Chyaochyureu';
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+select#Review-heart {
+  width: 100px;
+  height: 30px;
+  font-family: '777Chyaochyureu';
+  font-size: 16px;
+  padding-left: 3px;
+}
+
+div#Review-Title {
+  width: 40%;
+  float: left;
+  font-family: 'BBTreeCR';
+  font-size: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+td.td-font {
+  font-family: 'BBTreeCR';
+}
+
+div#table-Reivew {
+  float: left;
+  padding-top: 40px;
+  padding-left: 50px;
+  width: 50%;
+  height: 50px;
+}
+
+main#main_index{
+  width: 1400px;
+  margin: 0 auto;
+  transform: translateX(5%);
+}
+
+/* ******************************************************* */
+section#Hannah-section-home {
+  width: 1190px;
+  height: 750px;
+  background-color: #E8E8E8;
+  float: left;
+  overflow: auto;
+  border: 3px solid white;
+  padding-bottom: 35px;
+  text-align: center;
+  display: inline-block;
+}
+
+article#article-img-home {
+  width: 94%;
+  height: 450px;
+  background-color: #CCCCCC;
+  margin: 40px 0 0 3%;
+}
+
+/* Outer / Dress / Pants / Shoes */
+section#Hannah-section-Out {
+  width: 83.5%;
+  height: 780px;
+  background-color: #E8E8E8;
+  float: left;
+  overflow: auto;
+  border: 3px solid white;
+}
+
+article.article-Out {
+  width: 21.2%;
+  height: 330px;
+  background-color: #CCCCCC;
+  float: left;
+  margin: 40px 0 0 3%;
+}
+
+div.div-Out {
+  width: 244px;
+  height: 240px;
+  text-align: center;
+  border: 4px solid white;
+}
+
+div.div-Out-name {
+  float: left;
+}
+
+div.div-Out-price {
+  float: right;
+  margin-right: 10px;
+}
+
+p.p-Out {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: '777Chyaochyureu';
+}
+
+hr.hr-Out {
+  width: 230px;
+}
+
+/* ******************************************************* */
+/* Pet. */
+div#div-img-pet {
+  text-align: center;
+  padding-top: 6px;
+}
+
+article#article-img-pet {
+  width: 94%;
+  height: 750px;
+  background-color: #CCCCCC;
+  float: left;
+  margin: 40px 0 0 3%;
+}
+
+/* ******************************************************* */
+/* Sign up. */
+section#Hannah-section-signup {
+  width: 83.5%;
+  height: 350px;
+  background-color: #E8E8E8;
+  float: left;
+  overflow: auto;
+  border: 3px solid white;
+}
+
+div#div-button-signup {
+  margin-top: 30px;
+  float: right;
+}
+
+article.article-img-signup {
+  width: 46%;
+  background-color: #CCCCCC;
+  float: left;
+  margin: 10px;
+  padding-right: 10px;
+}
+
+label.signup-label {
+  width: 110px;
+  display: inline-block;
+  font-family: Garamond;
+  padding-left: 6px;
+  font-family: 'BBTreeTL';
+}
+
+input.signup-input {
+  width: 120px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+form {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+legend {
+  font-size: 25px;
+  font-family: Garamond;
+  margin: auto;
+}
+
+/* Table. */
+article.article-table {
+  width: 46%;
+  float: left;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
+tr.tr-1 {
+  background-color: #A6A6A6;
+}
+
+/* Footer. */
+div#footer-p {
+  margin-bottom: 10px;
+}
+
+div#div-foot {
+  height: 80px;
+  clear: both;
+  background-color: #DADADB;
+  font-family: Garamond;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+ul#footer-ul {
+  padding: 18px 0 0 0;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+ul#footer-ul>li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul#footer-ul>li>a {
+  text-decoration: none;
+  Color: black;
+  font-family: Garamond;
+}
+
+ul#footer-ul>li>a:hover {
+  background-color: #E8E8E8;
+}
+
+/* Aside. #aside-Category*/
+/* aside#aside-Login {
+  width: 8%;
+  height: 190px;
+  float: left;
+  background-color: #D0D0D1;
+  border-top: 3px solid white;
+}
+
+div#div-button {
+  text-align: right;
+  padding-right: 8px;
+}
+
+button#Sign-up {
+  margin: 0 0 0 10px;
+}
+
+button#Login {
+  margin: 20px 0 0 10px;
+} */
+
+/* Form. */
+
+label {
+  width: 40px;
+  display: inline-block;
+  font-family: Garamond;
+}
+
+input {
+  width: 50px;
+  display: inline-block;
+}
+
+/* Section. */
+section#Hannah-section {
+  width: 83.5%;
+  height: 800px;
+  background-color: #E8E8E8;
+  float: left;
+  overflow: auto;
+  border: 3px solid white;
+}
+
+article.article-img {
+  width: 21.2%;
+  height: 400px;
+  background-color: #CCCCCC;
+  float: left;
+  margin: 40px 0 0 3%;
+}
+
+div.div-img {
+  text-align: center;
+  padding-top: 6px;
+}
+
+/* Aside. #aside-Category */
+aside#aside-Category {
+  display: inline-block;
+  padding-top: 1px;
+  width: 115px;
+  height: 210px;
+  background-color: #D0D0D1;
+  border-top: 3px solid white;
+}
+
+aside#aside-Category>h3{
+  margin-right: 16px;
+}
+
+aside#aside-Category>ul {
+  list-style: none;
+  padding: 0px;
+  text-indent: 14px;
+  margin-right: 16px;
+}
+
+aside#aside-Category>ul>li {
+  list-style: none;
+  line-height: 26px;
+}
+
+aside#aside-Category>ul>li>a {
+  text-decoration: none;
+  Color: black;
+  font-family: Garamond;
+}
+
+aside#aside-Category>ul>li:hover {
+  background-color: #BDBDBD;
+}
+
+/* Aside. #aside-client */
+aside#aside-client {
+  display: inline-block;
+  padding-top: 1px;
+  width: 114px;
+  height: 185px;
+  background-color: #D0D0D1;
+  border-top: 3px solid white;
+}
+
+aside#aside-client>h3{
+  margin-right: 16px;
+}
+
+aside#aside-client>ul {
+  list-style: none;
+  padding: 0px;
+  text-indent: 14px;
+  margin-right: 16px;
+}
+
+aside#aside-client>ul>li {
+  list-style: none;
+  line-height: 26px;
+}
+
+aside#aside-client>ul>li>a {
+  text-decoration: none;
+  Color: black;
+  font-family: Garamond;
+}
+
+aside#aside-client>ul>li:hover {
+  background-color: #BDBDBD;
+}
+
+h3 {
+  text-indent: 12px;
+  font-family: Garamond;
+}
+
+/* Nav. */
+nav#Hannah-nav {
+  display: block;
+}
+
+ul#nav-ul {
+  border-top: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+ul#nav-ul>li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul#nav-ul>li>a {
+  text-decoration: none;
+  Color: black;
+  font-family: Garamond;
+}
+
+ul#nav-ul>li>a:hover {
+  background-color: #E8E8E8;
+}
+
+/* div-search. */
+div#div-search {}
+
+input#input-search {
+  width: 150px;
+}
+
+button#button-search {}
+
+/* Header. */
+h1>a {
+  Color: black;
+  text-decoration: none;
+  font-family: 'BBTreeCR';
+  font-size: 60px;
+}
+
+h1 {
+  margin-left: 10%;
+  text-shadow: 3px 5px 3px #9D9D9D;
+}
+
+@font-face {
+  font-family: 'BBTreeCR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeCR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BBTreeTL';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeTL.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '777Chyaochyureu';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Chyaochyureu.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BBTreeGR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,329 @@
+div#sign_header {
+  margin: 40px auto;
+  width: 780px;
+}
+
+div#header_online {
+  margin: 0 auto;
+  width: 780px;
+  height: 40px;
+  border-bottom: 1.5px solid #E9E8E8;
+}
+
+div#header_online>span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Cafe24Oneprettynight';
+}
+
+div#sign_email_class, #sign_address_class strong{
+  font-family: 'Cafe24Oneprettynight';
+}
+
+div#header_info {
+  margin: 0 auto;
+  width: 780px;
+  height: 80px;
+  border-bottom: 1.5px solid #E9E8E8;
+  position: relative;
+}
+div#header_info>span {
+  position: absolute;
+  top: 28px;
+  left: 12px;
+  font-family: 'Cafe24Oneprettynight';
+  margin-top: 5px;
+}
+
+div#sign_email_class_info>span{
+  font-family: 'Cafe24Oneprettynight';
+}
+
+div#sign_email_class_input strong{
+  font-family: 'Cafe24Oneprettynight';
+}
+
+#sign_id_input_check,#sign_zip_code_button{
+  font-family: 'Cafe24Oneprettynight';
+}
+
+/*  main  */
+div#sign_main {
+  margin: 20px auto;
+  width: 780px;
+  border-top: 1px solid #D8D8D8;
+}
+
+div.sign_name_class{
+  width: 150px;
+  height: 40px;
+  background-color: #F5F5F5;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+div.sign_name_class>span {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  color: red;
+}
+div.sign_name_class>span>strong{
+  color: black;
+  font-family: 'Cafe24Oneprettynight';
+}
+
+
+div#sign_id{
+  margin: 0 auto;
+  width: 780px;
+  height: 40px;
+  border-top: 1px solid #D8D8D8;
+  position: relative;
+}
+div#sign_id #sign_id_input{
+  display: inline-block;
+  position: absolute;
+  top: 7px;
+  left: 160px;
+}
+
+div#sign_id #sign_id_input>button{
+  width: 90px;
+}
+
+input#sign_id_input_go{
+  width: 120px;
+}
+
+span#sign_id_first, #sign_id_ajax{
+  font-size: 10px;
+}
+
+/* span#sign_id_ajax{
+  font-size: 10px;
+  color: red;
+} */
+
+
+
+div#sign_pw{
+  margin: 0 auto;
+  width: 780px;
+  height: 40px;
+  border-top: 1px solid #D8D8D8;
+  position: relative;
+}
+div#sign_pw #sign_pw_input{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  font-size: 10px;
+}
+input#sign_pw_input_go{
+  width: 120px;
+}
+div#sign_pw #sign_pw_input>#sign_msg_pw_second{
+  color: red;
+}
+
+
+
+div#sign_pw_check{
+  margin: 0 auto;
+  width: 780px;
+  height: 40px;
+  border-top: 1px solid #D8D8D8;
+  position: relative;
+}
+div#sign_pw_check #sign_pw_check_input{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  font-size: 10px;
+}
+input#sign_pw_check_input_go{
+  width: 120px;
+}
+div#sign_pw_check #sign_pw_check_input>#sign_msg_pw_check_first{
+  color: green;
+}
+div#sign_pw_check #sign_pw_check_input>#sign_msg_pw_check_second{
+  color: red;
+}
+
+
+
+div#sign_name{
+  margin: 0 auto;
+  width: 780px;
+  height: 40px;
+  border-top: 1px solid #D8D8D8;
+  position: relative;
+}
+div#sign_name #sign_name_input{
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  font-size: 10px;
+}
+div#sign_name #sign_name_input>#sign_name_input_first{
+  color: red;
+}
+
+
+
+div#sign_email{
+  margin: 0 auto;
+  width: 780px;
+  height: 82px;
+  border-top: 1px solid #D8D8D8;
+  position: relative;
+}
+div#sign_email #sign_email_class{
+  width: 150px;
+  height: 82px;
+  background-color: #F5F5F5;
+  text-align: center;
+  position: relative;
+}
+div#sign_email #sign_email_class>span {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  color: red;
+}
+div#sign_email #sign_email_class>span>strong {
+  color: black;
+}
+
+div#sign_email #sign_email_class_input{
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 160px;
+  font-size: 14px;
+}
+div#sign_email #sign_email_class_input>input{
+  width: 250px;
+}
+
+div#sign_email #sign_email_class_info{
+  margin-top: 5px;
+}
+
+div#sign_email #sign_email_class_input>#sign_email_input_first{
+  font-size: 10px;
+  color: red;
+}
+
+
+div#sign_zip_code{
+  margin: 0 auto;
+  width: 780px;
+  height: 40px;
+  border-top: 1px solid #D8D8D8;
+  position: relative;
+}
+div#sign_zip_code #sign_zip_code_input {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+  left: 160px;
+  font-size: 14px;
+}
+div#sign_zip_code #sign_zip_code_input>input {
+  width: 50px;
+}
+
+div#sign_zip_code #sign_zip_code_input>button{
+  width: 100px;
+}
+
+
+
+div#sign_address{
+  margin: 0 auto;
+  width: 780px;
+  height: 60px;
+  border-top: 1px solid #D8D8D8;
+  position: relative;
+}
+div#sign_address #sign_address_class {
+  width: 150px;
+  height: 60px;
+  background-color: #F5F5F5;
+  text-align: center;
+  position: relative;
+}
+div#sign_address #sign_address_class>span {
+  position: absolute;
+  top: 19px;
+  left: 15px;
+  color: red;
+}
+div#sign_address #sign_address_class>span>strong {
+  color: black;
+}
+
+div#sign_address #sign_address_input {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 160px;
+  font-size: 14px;
+}
+div#sign_address #sign_address_input>input {
+  width: 400px;
+  margin-top: 4px;
+}
+
+
+
+div#sign_phone_num{
+  margin: 0 auto;
+  width: 780px;
+  height: 40px;
+  border-top: 1px solid #D8D8D8;
+  border-bottom: 2px solid #D8D8D8;
+  position: relative;
+}
+div#sign_phone_num #sign_phone_num_input {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 160px;
+  font-size: 10px;
+}
+div#sign_phone_num #sign_phone_num_input>input{
+  width: 120px;
+}
+
+div#sign_phone_num #sign_phone_num_input>#sign_phone_num_input_fisrt{
+  color: red;
+}
+
+
+/* footer */
+div#sign_footer{
+  margin: 35px auto;
+  width: 780px;
+  height: 40px;
+  text-align: center;
+}
+
+div#sign_footer>input,button{
+  font-family: Garamond;
+  width: 65px;
+  height: 25px;
+}
+
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
